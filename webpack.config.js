@@ -5,7 +5,7 @@ module.exports = {
   target: 'web',
   entry: './examples',
   output: {
-    filename: 'index.js'
+    filename: '[name].js'
   },
   module: {
     rules: [
